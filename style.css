@@ -11,17 +11,28 @@
 }
 header{
  background-color: yellowgreen;
- height: 150px;
+ height: 574px;
  /*início*/
  grid-row-start: 1;
  grid-column-start: 1;
  /* fim*/
  grid-row-end: 1;
  grid-column-end: 4;
+ background-image: url(https://oca.observatorio.uff.br/wp-content/uploads/sites/468/2023/10/BelaeaFera_-1080x675.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 828px;
+ background-position: center;
+}
+header h1{
+    text-align: center;
+    padding-left: 100px; 
+    padding-top: 381px; 
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   font-size: 55px; 
+   color: white; 
 }
 main{
-    background-color: yellow;
-    height: 800px;
+    height: 1050px;
     /* início */
     grid-row-start: 2;
     grid-column-start: 1;
@@ -29,15 +40,45 @@ main{
     grid-row-end: 2;
     grid-column-end: 4;
 }
+
+main h2{
+    text-align: left; 
+    height: 35px ; 
+    padding-left: 71px; 
+    padding-top: 30px; 
+    color: #000;
+}
+
+main p{
+    text-align: left; 
+    font-size: 18px; 
+   padding-left: 71px; 
+   padding-top: 6px; 
+   width: 89%
+}
+main .p2{
+    text-align: left; 
+    font-size: 18px; 
+   padding-left: 72px; 
+   padding-top: 15px; 
+   width: 85% 
+}
+main img{
+    width: 1069px;
+    height: 605px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
 footer{
     display: grid;
     grid-template-columns: repeat(3,100%);
     grid-template-rows: repeat(1, auto);
-    gap: 1px;
+    gap: 0px;
 }
 .left-footer{
-    background-color: rgb(255, 0, 123);
-    height: 200px;
+    background-color: rgb(218, 231, 228);
+    height: 500px;
     /* início */
     grid-row-start: 3;
     grid-column-start: 1;
@@ -45,9 +86,17 @@ footer{
      grid-row-end: 4;
     grid-column-end: 2;
 }
+ .p1{
+  font-size: 15px;
+  margin-left: 20px;
+  color: #000;
+  width: 87%;
+  
+}
+
 .center-footer{
-    background-color: rgb(64, 0, 255);
-    height: 200px;
+    background-color: rgb(218, 231, 228);
+    height: 500px;
     /* início */
     grid-row-start: 3;
     grid-column-start: 2;
@@ -55,13 +104,43 @@ footer{
     grid-row-end: 4;
     grid-column-end: 3;
 }
+.p2{
+    font-size: 15px;
+    margin-left: 20px;
+    color: #000;
+    width: 89%;
+    margin-left: 18px;
+  }
+
 .right-footer{
-    background-color: rgb(0, 255, 213);
-    height: 200px;
+    background-color: rgb(218, 231, 228);
+    height: 500px;
     /* início*/
     grid-row-start: 3;
     grid-column-start: 3;
      /* fim*/
      grid-row-end: 4;
      grid-column-end: 4;
+}
+.p3{
+  font-size: 15px;
+ margin-left: 20px;
+ color: #000;
+ width: 87%;
+ margin-left: 18px;
+}
+
+footer section img{
+    height: 215px;
+    width: 365px;
+    margin-left: 17px;
+    margin-top: 41px;
+    
+}
+h2{
+    text-align: center;
+    padding-left: 1px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   color: rgb(0, 0, 0);
 }
